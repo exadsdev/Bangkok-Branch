@@ -1,0 +1,33 @@
+[
+  {
+    "slug": "seo-nextjs15-structure",
+    "title": "โครงสร้าง SEO ที่จำเป็นสำหรับ Next.js 15 (App Router) แบบทำจริง",
+    "date": "2025-12-21",
+    "excerpt": "สรุปสิ่งที่ต้องมีเพื่อให้ Google เข้าใจเว็บ: metadata, canonical, sitemap/robots, schema, internal links และ Core Web Vitals",
+    "tags": [
+      "SEO",
+      "Next.js",
+      "Structured Data"
+    ],
+    "author": "ทีมบทความ",
+    "thumbnail": "/blog/seo-next15.jpg",
+    "keywords": [
+      "nextjs 15 seo",
+      "app router seo",
+      "structured data",
+      "sitemap",
+      "robots"
+    ],
+    "contentHtml": "<p>บทความตัวอย่าง (แก้ไขได้)</p><h2>สิ่งที่ต้องมี</h2><ul><li>Metadata ครบ</li><li>Sitemap/Robots</li><li>Schema</li></ul>",
+    "faqs": [
+      {
+        "q": "Next.js 15 ทำ SEO ได้ดีไหม?",
+        "a": "ได้ดีมาก ถ้าจัดโครงสร้าง metadata, schema และ internal links ให้ถูกต้อง"
+      },
+      {
+        "q": "ต้องทำ sitemap ไหม?",
+        "a": "ควรทำ และควรให้รวมหน้าสำคัญทั้งหมด รวมถึงหน้า video/blog"
+      }
+    ]
+  }
+]

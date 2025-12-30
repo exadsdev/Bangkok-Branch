@@ -1,0 +1,52 @@
+.wrap{
+  width:100%;
+}
+
+/* ===============================
+   🖥️ PC / Tablet
+   เรียงซ้าย → ขวา รูปละ 150px
+================================ */
+.gallery{
+  display:flex;
+  flex-direction:row;
+  align-items:stretch;
+  gap:12px;
+  overflow-x:auto;
+  padding:8px 0;
+  -webkit-overflow-scrolling:touch;
+}
+
+.item{
+  flex:0 0 auto;
+  width:150px; /* ✅ ตามที่ต้องการ */
+}
+
+.img{
+  width:100%;
+  height:auto;  display:block;
+  object-fit:cover;
+  border-radius:10px;
+}
+
+/* ===============================
+   📱 Mobile
+   เต็ม 100% เรียงบน → ล่าง
+   ไม่มี gap ชิดติดกัน
+================================ */
+@media (max-width: 768px){
+  .gallery{
+    flex-direction:column;
+    gap:0;              /* ✅ ไม่มีช่องว่าง */
+    overflow:visible;
+    padding:0;
+  }
+
+  .item{
+    width:100%;
+  }
+
+  .img{
+    width:100%;
+    border-radius:0;    /* ✅ ชิดขอบ */
+  }
+}
