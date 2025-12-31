@@ -1,5 +1,7 @@
 // components/cart.jsx
 
+import "./Header.css";
+
 import { CONTACT } from "@/seo.config";
 
 export default function cart() {

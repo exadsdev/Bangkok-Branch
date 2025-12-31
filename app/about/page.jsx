@@ -31,7 +31,7 @@ export default function About() {
 
                         <div className="col-lg-7 col-md-6">
                             <div className="section-header text-left">
-                                <p>PG Home Co., Ltd.</p>
+                                <p>{name}</p>
                                 <h2>ศูนย์รับสร้างบ้านและควบคุมคุณภาพงานก่อสร้าง</h2>
                             </div>
 
